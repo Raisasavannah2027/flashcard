@@ -2,7 +2,7 @@ import random
 from collections import deque
 
 
-flashcards = {
+flashcard_library = {
   "a" : "hello",
   "b" : "yes",
   "c" : "tis not thoust",
@@ -11,8 +11,10 @@ flashcards = {
 
 list_of_flashcards = ["a", "b", "c", "d"]
 
-
-random.shuffle(list_of_flashcards)
+xii = random.randint(-1000, 1000)
+list_of_flashcards = deque(list_of_flashcards)
+list_of_flashcards.rotate(xii)
+list_of_flashcards = list(list_of_flashcards)
 
 for i in range(4):
   x = list_of_flashcards[i]

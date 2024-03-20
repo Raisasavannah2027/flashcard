@@ -1,0 +1,91 @@
+Create a Json file system which has five layers:
+1. a. Username (e.g. purple_cats_sing2231)
+2. b(*a). passcode c(*a). libraries of flashcards
+3. d(*c*a). Individual Set  e(*d*c*a). Overall set dificilty
+4. f(*d*c*a). Individual Flash Card
+5. g(*e*d*c*a). Question h(*e*d*c*a). Solution i(*e*d*c*a). Item Difficulty ( j(h*e*d*c*a). Success Rate [amount of times that this card was answered corectly], k(h*e*d*c*a). Time to answer question)
+6. 
+
+[
+a. Username
+b. passcode
+c. libraries of flashcards
+d. Individual Set
+e. Overall set dificilty
+f. Individual Flash Card
+g. Question
+h. Solution
+i. Item Difficulty
+j. Success Rate
+k. Time to answer question
+l.
+m.
+n
+
+]
+
+username[]
+passcode = 
+library_of_flashcards[]
+  individual_set_(name)[]
+    average_success_rate =
+    average_fail_rate = 
+    overall_set_stats[]
+      attempt_x[]
+        attempt_date =
+        score = 
+      individual_flash_cards[]
+        individual_flash_card_x[]
+          Question =
+          Solution =
+          individual_flash_card_stats[]
+            average_success_rate =
+            average_fail_rate =
+            average_time_answer_question_rate =
+            attempt_x[]
+              attempt_date =
+              pass_or_fail =
+              time_to_answer_question =
+
+-----------
+
+Littner system/Biased Randomization System:
+
+The program produce bisad flash cards based on constantly updating Item Difficulty variable which will be taken into account.
+
+-----------
+
+Voice System [google voice system] (asks questions based on a calmness/aggressive slider):
+
+This is self explanatory.
+
+-----------
+
+The program will be able to simualte a study parter with auto readers and [hopefuly] a voice recognition system:
+
+This will allow for a more interactive experience with the voice system above hopfuly allowing for an experience which better resempbels working with a partner.
+
+-----------
+
+A system that allows for the creation of Flash card Libraries:
+
+A easily understood system (hopfuly a in the form of a table) system that has two column: Anwser and Solution. The aplication will then atomaticly compile a set of flash cards using tkinter.
+
+-----------
+
+Tkinter interface:
+
+The Tkinter "Flash Card" will have: a main text body, a button to return to the previous card (this is only in modification mode, this will not be "on" the flash card, but in the outer border [will not be avalable during gameplay]), a button to move to the next flash card (in the gamemode, one press will flip the card, and a second press will move to the next card), a button to flip the flash card (this is only for modification mode, this will not be "on" the flash card, but in the outer border [will not be avalable during gameplay]),
+
+-----------
+
+For the Answering System:
+
+The Answering System is a system that will ignore not locked capitals (there will be an ability in the create system that will allow for "Locked Captals" in other words charector that can only be corect as a capital, this could be usful for Abrevations, Names of historical figures, Bio-systems)
+
+-----------
+
+"Gamemodes" for the questions asked (how the questions in the "game" are structured):
+
+
+

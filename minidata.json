@@ -1,0 +1,10 @@
+{
+  "user1": {
+    "passcode": "",
+    "presidents": {}
+  },
+  "user2": {
+    "passcode": "asdf",
+    "presidents": {}
+  }
+}

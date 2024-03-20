@@ -1,0 +1,51 @@
+{
+    "username": {
+        "passcode": "",
+        "library_of_flashcards": [
+          {
+            "individual_set_(name)": [
+              {
+                "average_success_rate": "",
+                "average_fail_rate": "",
+                "overall_set_stats": [
+                  {
+                    "attempt_x": [
+                      {
+                        "attempt_date": "",
+                        "score": ""
+                      }
+                    ],
+                    "individual_flash_cards": [
+                      {
+                        "individual_flash_card_x": [
+                          {
+                            "Question": "",
+                            "Solution": "",
+                            "individual_flash_card_stats": [
+                              {
+                                "average_success_rate": "",
+                                "average_fail_rate": "",
+                                "average_time_answer_question_rate": "",
+                                "attempt_x": [
+                                  {
+                                    "attempt_date": "",
+                                    "pass_or_fail": "",
+                                    "time_to_answer_question": ""
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
